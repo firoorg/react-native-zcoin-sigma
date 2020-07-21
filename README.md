@@ -1,5 +1,7 @@
 # react-native-zcoin-sigma
 
+`This library implements native sigma routines for React Native under iOS and Android. Fully built binaries are committed for both platforms but can also be built from scratch.`
+
 ## Getting started
 
 `$ npm install react-native-zcoin-sigma --save`

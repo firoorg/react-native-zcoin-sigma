@@ -2,7 +2,7 @@
   "name": "react-native-zcoin-sigma",
   "title": "React Native Zcoin Sigma",
   "version": "1.0.0",
-  "description": "TODO",
+  "description": "Native C/C++ implemented sigma library for React Native app",
   "main": "index.js",
   "scripts": {
     "build": "echo OK",
@@ -11,16 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-zcoin-sigma.git",
-    "baseUrl": "https://github.com/github_account/react-native-zcoin-sigma"
+    "url": "git+https://github.com/hzak/react-native-zcoin-sigma.git"
   },
   "keywords": [
     "react-native"
   ],
-  "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
-  },
+  "contributors": [
+    "Hayk Zakaryan <hayk.zakaryan@gmail.com>",
+    "Hakob Kanoyan <hakob91@gmail.com>"
+  ],
   "license": "MIT",
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
