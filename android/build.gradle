@@ -58,7 +58,7 @@ android {
 
         externalNativeBuild {
             cmake {
-                arguments '-DANDROID_TOOLCHAIN=clang', '-DANDROID_STL=c++_static', "-DANDROID_STL=c++_shared"
+                arguments '-DANDROID_TOOLCHAIN=clang', '-DANDROID_STL=c++_static'
             }
         }
     }
@@ -111,13 +111,6 @@ def configureReactNativePom(def pom) {
                 name packageJson.license
                 url packageJson.repository.baseUrl + '/blob/master/' + packageJson.licenseFilename
                 distribution 'repo'
-            }
-        }
-
-        developers {
-            developer {
-                id packageJson.author.username
-                name packageJson.author.name
             }
         }
     }
