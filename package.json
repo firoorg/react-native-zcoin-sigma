@@ -7,7 +7,7 @@
   "scripts": {
     "build": "echo OK",
     "build:native": "./build-secp",
-    "postinstall": "grep url .gitmodules | sed 's/.*= //' | while read url; do git clone $url native-libs/libsigma; done"
+    "postinstall": "./update_libsigma_submodule.sh"
   },
   "repository": {
     "type": "git",
